@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Basic&display=swap');
+body {
+    background-image: url(img/imagem_fundo/Design\ sem\ nome\ 1\ \(1\).svg);
+    background-color: #b369ca;
+    font-family: 'Tilt Warp', cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: black;
+    display: flex;
+    height: 170px;
+    align-items: center;
+    justify-content: space-between;
+    color: #DF7EFC;
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 65px;
+    text-align: center;
+}
+
+.imagem-logo {
+    padding: 50px;
+    padding-top: 67px;
+}
+
+.ignore {
+    padding: 50px;
+    padding-right: 180px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    padding-top: 200px;
+
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.input input {
+    width: 540px;
+    height: 40px;
+}
+
+.box-form {
+    font-size: 30px;
+}
+
+.box-form a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+
+}
+
+.box-form p {
+    margin: 0%;
+
+}
+
+.op {
+    display: flex;
+    flex-direction: row;
+    gap: 130px;
+
+}
+
+.google{
+    width: 480px;
+    background-color: #FFFFFF;
+    border-radius: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #979598;
+    font-family:'Basic', sans-serif;
+    font-size: 25px;
+}
+
+
+
+    
