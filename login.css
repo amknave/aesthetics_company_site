@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Basic&display=swap');
+
 body {
     background-image: url(img/imagem_fundo/Design\ sem\ nome\ 1\ \(1\).svg);
     background-color: #b369ca;
@@ -29,7 +30,7 @@ header {
 
 .ignore {
     padding: 50px;
-    padding-right: 180px;
+    padding-right: 208px;
 }
 
 form {
@@ -38,7 +39,7 @@ form {
     align-items: center;
     justify-content: center;
     align-content: center;
-    padding-top: 200px;
+    padding-top: 160px;
 
 }
 
@@ -50,7 +51,12 @@ form {
 
 .input input {
     width: 540px;
-    height: 40px;
+    height: 50px;
+    border: 0;
+    border-radius: 70px;
+    font-size: 24px;
+    font-family: 'Basic', sans-serif;
+    text-indent: 23px;
 }
 
 .box-form {
@@ -59,14 +65,14 @@ form {
 
 .box-form a {
     text-decoration: none;
-    color: black;
+    color: rgb(244, 229, 244);
     font-size: 25px;
 
 }
 
 .box-form p {
-    margin: 0%;
-
+    margin: 0;
+    padding-bottom: 5px;
 }
 
 .op {
@@ -76,8 +82,13 @@ form {
 
 }
 
-.google{
-    width: 480px;
+.google {
+    padding-top: 30px;
+    width: 540px;
+}
+
+.ign {
+    width: 540px;
     background-color: #FFFFFF;
     border-radius: 70px;
     height: 70px;
@@ -86,10 +97,30 @@ form {
     align-items: center;
     gap: 10px;
     color: #979598;
-    font-family:'Basic', sans-serif;
+    font-family: 'Basic', sans-serif;
+    border: 0;
     font-size: 25px;
 }
 
+.texg {
+    font-size: 30px;
+    margin: 0;
+    padding-bottom: 5px;
+}
 
+.pezin {
+    width: 540px;
+    font-size: 20px;
+    padding-top: 12px;
+    display: flex;
+}
 
-    
+.pezin input {
+    border: 0;
+}
+
+.botao-enviar {
+    display: flex;
+    justify-content: end;
+    width: 540px;   
+}
