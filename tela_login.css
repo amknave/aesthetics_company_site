@@ -13,24 +13,14 @@ body {
 header {
     background-color: black;
     display: flex;
-    height: 170px;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     color: #DF7EFC;
     text-transform: uppercase;
-    font-size: 30px;
-    line-height: 65px;
+    font-size: 20px;
+    line-height: 45px;
     text-align: center;
-}
-
-.imagem-logo {
-    padding: 50px;
-    padding-top: 67px;
-}
-
-.ignore {
-    padding: 50px;
-    padding-right: 208px;
+    width: 100%;
 }
 
 form {
@@ -39,8 +29,29 @@ form {
     align-items: center;
     justify-content: center;
     align-content: center;
-    padding-top: 160px;
+    padding-top: 100px;
+}
 
+.logotexto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.nome-empresa h1 {
+    margin: 0;
+}
+
+.imagem-logo {
+    padding: 20px 0 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.imagem-logo img {
+    height: 120px;
 }
 
 .input {
@@ -50,23 +61,23 @@ form {
 }
 
 .input input {
-    width: 540px;
-    height: 50px;
+    height: 40px;
+    width: 350px;
     border: 0;
     border-radius: 70px;
-    font-size: 24px;
+    font-size: 20px;
     font-family: 'Basic', sans-serif;
     text-indent: 23px;
 }
 
 .box-form {
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .box-form a {
     text-decoration: none;
     color: rgb(244, 229, 244);
-    font-size: 25px;
+    font-size: 17px;
 
 }
 
@@ -78,17 +89,17 @@ form {
 .op {
     display: flex;
     flex-direction: row;
-    gap: 130px;
+    gap: 50px;
 
 }
 
 .google {
     padding-top: 30px;
-    width: 540px;
+    align-items: center;
 }
 
 .ign {
-    width: 540px;
+    width: 350px;
     background-color: #FFFFFF;
     border-radius: 70px;
     height: 70px;
@@ -99,20 +110,21 @@ form {
     color: #979598;
     font-family: 'Basic', sans-serif;
     border: 0;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .texg {
-    font-size: 30px;
+    font-size: 20px;
     margin: 0;
     padding-bottom: 5px;
 }
 
 .pezin {
-    width: 540px;
+    width: 350px;
+    display: flex;
+    justify-content: flex-start;
     font-size: 20px;
     padding-top: 12px;
-    display: flex;
 }
 
 .pezin input {
@@ -122,5 +134,27 @@ form {
 .botao-enviar {
     display: flex;
     justify-content: end;
-    width: 540px;   
+    padding-top: 30px;
+    width: 350px;
+}
+
+.botao-enviar input {
+    font-family: 'Tilt Warp', cursive;
+    border: 0;
+    border-radius: 5px;
+    background-color: chartreuse;
+    color: black;
+    width: 110px;
+    height: 45px;
+}
+
+.op a:hover {
+    color: rgb(71, 34, 71);
+}
+
+.botao-enviar input:hover {
+    background-color: rgb(56, 216, 56);
+    -webkit-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    transform: translateY(-5px);
 }
