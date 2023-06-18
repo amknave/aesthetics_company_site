@@ -32,6 +32,10 @@ form {
     padding-top: 160px;
 }
 
+main {
+    height: 700px;
+}
+
 .logotexto {
     display: flex;
     justify-content: center;
@@ -51,7 +55,7 @@ form {
 }
 
 .imagem-logo img {
-    height: 120px;
+    height: 100px;
 }
 
 .input {
@@ -68,6 +72,10 @@ form {
     font-size: 20px;
     font-family: 'Basic', sans-serif;
     text-indent: 23px;
+}
+
+.input input {
+    outline: none;
 }
 
 .box-form {
